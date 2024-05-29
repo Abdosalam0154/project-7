@@ -1,0 +1,334 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F5F5F5;
+
+
+    height: 1000px
+}
+
+.section-padding {
+    padding-top: 80px;
+
+}
+
+/* ?===========>nav */
+.navition {
+    --bs-navbar-active-color: #fff;
+    --bs-navbar-brand-hover-color: #fff;
+    font-weight: 500;
+
+}
+
+.navition {
+    color: #fff;
+    font-weight: 500;
+}
+
+nav li {
+    position: relative;
+}
+
+nav li ::before {
+    transform: translateX(0);
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    transition: all 0.5s;
+}
+
+nav li:hover a::before {
+    width: 100%;
+}
+
+
+
+/* ?===========>header */
+header {
+    background-image: linear-gradient(to right, #0000008c, #000000b9), url(../image/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.bg-fff {
+    color: #FFF;
+
+}
+
+.bg-fff h1 {
+    font-size: 4rem;
+}
+
+.bg-ddd {
+    color: #FFF;
+}
+
+
+
+
+.line {
+    width: 50px;
+    height: 5px;
+    background-color: #09c;
+    margin: auto;
+}
+
+.line1 {
+    width: 120px;
+    height: 3px;
+    background-color: #09c;
+    margin: 10px;
+}
+
+/* ?============>#SERVICES */
+#SERVICES .card {
+    padding: 40px 20px;
+    border: none;
+}
+
+#SERVICES .ico-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#SERVICES .services-ico {
+    width: 120px;
+    height: 120px;
+    border: #09c 10px solid;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+#SERVICES .card:hover .ico-circle {
+    background-color: #09c;
+}
+
+#SERVICES .card:hover .services-ico {
+    border: rgba(0, 153, 204, 0.349) 10px solid;
+}
+
+#SERVICES .over {
+    background-image:linear-gradient(to right,rgba(52, 99, 192, 0.706),rgba(52, 99, 192, 0.706)) , url(../image/post-3.jpg);
+    background-attachment: fixed;
+}
+
+#SERVICES .over .over1 {
+
+    width: 100%;
+    height: 100%;
+    padding-block: 100px;
+
+}
+
+#SERVICES .over .over1 i {
+    color: #FFF;
+}
+
+
+#SERVICES .over .over1 .services-ico {
+    width: 100px;
+    height: 100px;
+    border: #CDE1F8 10px solid;
+    border-radius: 50%;
+}
+
+#SERVICES .over .over1 .text-center {
+    color: #FFF;
+}
+
+/* ?============>#work */
+
+#work .plus {
+    width: 32px;
+    height: 32px;
+    color: #09c;
+    border-radius: 50%;
+    border: #09c 2px solid;
+}
+
+#work .plus i {
+    font-size: 24px;
+}
+
+#work .card .d-flex {
+    padding: 20px;
+}
+
+#work .card {
+    overflow: hidden;
+}
+
+#work .card img {
+    transition: all 1s;
+}
+
+#work .card:hover img {
+    transform: scale(1.1);
+
+}
+
+#work .card-body .a {
+    color: #09c;
+}
+
+#slider {
+    background-image:linear-gradient(to right,rgba(52, 99, 192, 0.706),rgba(52, 99, 192, 0.706)) ,url(../image/overlay-bg.jpg);
+    background-attachment: fixed;
+    padding-block: 30px;
+    text-align: center;
+}
+
+#blog {
+    margin-bottom: 80px;
+}
+
+.py-5 {
+    padding-top: 0;
+}
+
+.carousel-indicators button[data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #09c;
+}
+
+#contact {
+    background-image:linear-gradient(to right,rgba(52, 99, 192, 0.706),rgba(52, 99, 192, 0.706)) , url(../image/overlay-bg.jpg);
+    background-attachment: fixed;
+    padding-bottom: 5px;
+}
+
+
+
+#contact .position-relative {
+    position: relative;
+}
+
+#contact .position-relative::before {
+    content: "";
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    background-color: #09c;
+
+}
+
+.group-form {
+    margin-top: 20px;
+}
+
+.group-form input {
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+
+}
+
+.group-form input:focus {
+    border: 1px solid hsl(195, 100%, 40%);
+    outline: none;
+}
+
+.group-form textarea {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+
+}
+
+.group-form textarea:focus {
+    border: 1px solid #09c;
+    outline: none;
+}
+
+.comunity div {
+    border: 3px solid #09c;
+    border-radius: 50%;
+
+}
+
+.comunity div:hover {
+    border: 3px solid #a6c6f3;
+
+
+}
+
+.comunity i:hover {
+    background-color: #09c;
+
+}
+
+.comunity i {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(2, 97, 129);
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow i {
+    font-size: 20px;
+    color: #FFF;
+
+}
+
+#hover {
+    --bs-nav-link-hover-color:#fff;
+}
+@media (min-width: 668px) {
+    .col-sm-12 {
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+
+@media (max-width: 992px) {
+    .col-sm-12 {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width: 500px) {
+    #contact .position-relative::before {
+        content: "";
+        width: 100px;
+        height: 3px;
+        position: absolute;
+        bottom: -8px;
+        left: 0;
+        background-color: #09c;
+    
+    }
+    .comunity {
+        justify-content: center;
+    }
+    
+}
